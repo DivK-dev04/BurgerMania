@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dropbtn{
+            padding: 10px;
+            background-color: darkseagreen;
+            border: none;
+            position: relative;
+        }
+        .dropmenu{
+            position: absolute;
+            display: none;
+            list-style-type: none;
+            min-width: 160px;
+            background-color: lightgray;
+        }
+        .dropdown:hover .dropmenu{
+            display: block;
+        }
+        .dropmenu{
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="dropdown">
+        <button class="dropbtn">DROPDOWN</button>
+        <ul class="dropmenu">
+            <li>Link1</li>
+            <li>Link2</li>
+            <li>Link3</li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,364 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.part1{
+    list-style: none;
+    display: inline;
+    margin-left: -40px;
+}
+.part2 li{
+    display: inline;
+    margin-left: 30px;
+}
+.part3{
+    margin-right: 30px;
+}
+.part3 li{
+    display: inline;
+    list-style: none;
+    margin-left: 30px;
+}
+.tryfree{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: goldenrod;
+    color: aliceblue;
+    border: none;
+}
+.tryfree:hover{
+    background-color: gray;
+}
+.head:hover{
+    background-color: rgb(236, 238, 240);
+}
+/* .head div.main ul.part1:hover {
+    color: black;
+}
+.head div.main ul.part2:hover {
+    color: black;
+} */
+/* .head div.main ul.part3:hover {
+    color: black; */
+
+/* .head  div.main ul.part2 li, ul.part3 li, .main span.burgerman{
+    color:white;
+} */
+.part3 li{
+    display: inline;
+    list-style: none;
+    margin-left: 30px;
+}
+.part3{
+    margin-right: 30px;
+}
+.part2 li{
+     display: inline;
+     margin-left: 30px;
+}
+.part1{
+     list-style: none;
+     display: inline;
+     margin-left: -40px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.tryfree{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: goldenrod;
+    color: aliceblue;
+    border: none;
+}
+.tryfree:hover{
+    background-color: gray;
+}
+.head:hover{
+    background-color: rgb(236, 238, 240);
+    transition-duration: 1.5s;
+}
+.head div.main ul.part3:hover {
+    color: rgb(79, 19, 229);
+}
+.head div.main ul.part2:hover{
+    color: rgb(50, 12, 236);
+}
+.head div.main ul.part1:hover{
+    color: rgb(26, 11, 235);
+}
+
+/* DROPDOWN CSS STARTS */
+
+
+.main .part2{
+    position: relative;
+}
+.dropdown-content1{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 20px;
+}
+.dropdown-content1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.drpbtnn1:hover .dropdown-content1{
+    display: block;
+    cursor: pointer;
+}  
+.dropdown-content1 a:hover{
+    background-color: lightgray;
+}
+.dropdown-content2{
+    display: none;
+    position: absolute;
+    left: 150px;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.drpbtnn2:hover .dropdown-content2{
+    display: block;
+}
+.dropdown-content2 a:hover{
+    background-color: lightgray;
+}
+.dropdown-content3{
+    display: none;
+    position: absolute;
+    left: 250px;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content3 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.drpbtnn3:hover .dropdown-content3{
+    display: block;
+}
+.dropdown-content3 a:hover{
+    background-color: lightgray;
+}
+
+/* DROPDOWN CSS ENDS */
+
+
+.head:hover{
+color: red;
+}
+
+.head:hover .part1 li,
+.head:hover .part2 li,
+.head:hover .part3 li,
+.head:hover .part1 li:first-child {
+    color: rgb(10, 0, 0);
+}
+
+.head:hover .part1 li:hover,
+.head:hover .part2 li:hover,
+.head:hover .part3 li:hover,
+.head:hover .part1 li:first-child:hover {
+    color: inherit;
+}
+/* .overlay-main{ 
+    position: relative;
+    
+} */ 
+/* .overlay{
+    position:absolute;
+    background-color: black;
+    
+    inset: 0;
+    margin-top: 0px;
+    opacity: 0.4;
+} */
+
+.overlay-main img{
+    opacity: 0.8;
+    z-index: 999;
+    background-color: black;
+}
+
+/* .overlay {
+    position: absolute;
+    background-color: black;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: 1; /* Adjust the z-index to ensure the overlay is above the image
+} */
+.section1{
+    width: 90%;
+    margin: auto;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.heading1{
+    /* text-align: center; */
+    font-weight: 1000;
+    font-size: 48px;
+    margin-left: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 3rem;
+    color: rgb(72, 60, 60);
+}
+.p1:hover {
+    color: blue;
+    border: 1px solid white;
+    background-color: rgb(215, 205, 240);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.p2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+.p3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    /* transition-duration: 1s; */
+}
+.seconddiv{
+    width: 90%;
+    margin: auto;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.secdivp1{
+    color: white;
+    list-style-type: none;
+    margin-top: 40px;
+    margin-left: 650px;
+    font-size: 50px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    text-decoration: underline;
+}
+.seconddivp2{
+    color: black;
+    font-size: 45px;
+    font-weight: 100em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 150px;
+    margin-right: 29%;
+}
+.seconddivp2:hover{
+    background-color: cadetblue;
+    transition-duration: 1s;
+    border-radius: 20px;
+}
+.positionbtn{
+    color: white;
+    background-color: rgb(125, 125, 238);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-weight: 5px;
+    font-size: large;
+    margin-top: 330px;
+    margin-right: 35%;
+}
+.spanuse:hover{
+    color: black;
+    padding: 5px;;
+    /* border: 1px solid white; */
+    background-color: rgb(215, 205, 240);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition-duration: 2s;
+}
+.fourthdiv{
+    /* height: 500px;
+    width: 70%; */
+    margin: auto;
+    background-color: lightgray;
+    /* opacity: 0.2; */
+    /* display: flex; */
+    /* align-items: start; */
+    justify-content: center;
+    height: 400px; 
+    width: 63.25%;
+    margin-left: 310px;
+    /* z-index: -1; */
+}
+.ulclass{
+    list-style-type: none;
+}
+.li{
+    color: maroon;
+    font-size: 16px;
+    padding: 5px;
+    text-decoration: underline;
+}
+.sixdiv{
+    background-color: bisque;
+    margin: auto;
+    justify-content: center;
+    height: 400px; 
+    width: 63.25%;
+    margin-left: 310px;
+}
+.sixdivul{
+    list-style-type: none;
+}
+.parent{
+    position: relative;
+    height: 400px;
+    width: 63.25%;
+    margin: auto;
+    justify-content: center;
+    margin-left: 310px;
+    background-color: bisque;
+}
+.child{
+    position: absolute;
+    inset: 0;
+}
+.spanclass{
+    padding: 10px;
+    text-decoration: none;
+    /* background-color: cornflowerblue; */
+    margin-left: 20px;
+    /* border-radius: 10px; */
+    color: white;
+}
+.spanclass:hover{
+    border-radius: 10px;
+    transition-duration: 1s;
+    background-color: cornflowerblue;
+}
